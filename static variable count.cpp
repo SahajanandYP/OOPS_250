@@ -1,4 +1,4 @@
-//static variable count and display for 3 objects
+//cpp pogram to implement static variable count and display results after implementing for 3 objects
 #include<iostream>
 using namespace std;
 
@@ -8,11 +8,11 @@ class demo
 public:
     void getCount()
     {
-        cout<<"\nCount= "<<++count;
+        cout<<"count = "<<++count;
     }
 };
-
 int demo::count;
+
 int main()
 {
     demo d1,d2,d3;
@@ -21,3 +21,4 @@ int main()
     d3.getCount();
     return 0;
 }
+//what are the different usable operator overloading?(theory))
